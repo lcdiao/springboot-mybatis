@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbInediaRegisterMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbInediaRegister">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="inedia_register_id" jdbcType="BIGINT" property="inediaRegisterId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="birthday" jdbcType="DATE" property="birthday" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="register_time" jdbcType="TIMESTAMP" property="registerTime" />
+    <result column="goal" jdbcType="VARCHAR" property="goal" />
+    <result column="experience" jdbcType="VARCHAR" property="experience" />
+    <result column="smoking_drinking" jdbcType="VARCHAR" property="smokingDrinking" />
+    <result column="knowledge_about_inedia" jdbcType="VARCHAR" property="knowledgeAboutInedia" />
+    <result column="first" jdbcType="VARCHAR" property="first" />
+    <result column="knowledge_about_autophagy" jdbcType="VARCHAR" property="knowledgeAboutAutophagy" />
+    <result column="dietary_habits" jdbcType="VARCHAR" property="dietaryHabits" />
+    <result column="exercise_time" jdbcType="VARCHAR" property="exerciseTime" />
+    <result column="perception" jdbcType="VARCHAR" property="perception" />
+    <result column="treatment" jdbcType="VARCHAR" property="treatment" />
+    <result column="work_environment" jdbcType="VARCHAR" property="workEnvironment" />
+    <result column="road" jdbcType="VARCHAR" property="road" />
+    <result column="union_id" jdbcType="VARCHAR" property="unionId" />
+    <result column="physical_status" jdbcType="LONGVARCHAR" property="physicalStatus" />
+  </resultMap>
+</mapper>

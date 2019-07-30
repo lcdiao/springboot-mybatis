@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbTodoListMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbTodoList">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="todo_id" jdbcType="BIGINT" property="todoId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="label" jdbcType="VARCHAR" property="label" />
+    <result column="task_id" jdbcType="INTEGER" property="taskId" />
+    <result column="special_task_id" jdbcType="INTEGER" property="specialTaskId" />
+    <result column="mark_content" jdbcType="VARCHAR" property="markContent" />
+    <result column="mark_time" jdbcType="TIMESTAMP" property="markTime" />
+  </resultMap>
+</mapper>

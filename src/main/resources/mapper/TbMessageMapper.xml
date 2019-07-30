@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbMessageMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbMessage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="message_id" jdbcType="BIGINT" property="messageId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="expert_id" jdbcType="BIGINT" property="expertId" />
+    <result column="label" jdbcType="VARCHAR" property="label" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+  </resultMap>
+</mapper>

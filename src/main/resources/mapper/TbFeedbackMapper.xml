@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbFeedbackMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbFeedback">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="feedback_id" jdbcType="INTEGER" property="feedbackId" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="phone" jdbcType="CHAR" property="phone" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+  </resultMap>
+</mapper>

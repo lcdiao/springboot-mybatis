@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbShareMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbShare">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="share_id" jdbcType="INTEGER" property="shareId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="level" jdbcType="TINYINT" property="level" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+    <result column="cover_url" jdbcType="VARCHAR" property="coverUrl" />
+    <result column="link_url" jdbcType="VARCHAR" property="linkUrl" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="issue_time" jdbcType="TIMESTAMP" property="issueTime" />
+    <result column="delete_time" jdbcType="TIMESTAMP" property="deleteTime" />
+    <result column="share_redis_id" jdbcType="BIGINT" property="shareRedisId" />
+    <result column="share_content" jdbcType="LONGVARCHAR" property="shareContent" />
+  </resultMap>
+</mapper>

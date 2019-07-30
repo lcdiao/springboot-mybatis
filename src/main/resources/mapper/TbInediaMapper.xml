@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbInediaMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbInedia">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="inedia_id" jdbcType="BIGINT" property="inediaId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="weight" jdbcType="REAL" property="weight" />
+    <result column="blood_sugar" jdbcType="REAL" property="bloodSugar" />
+    <result column="blood_pressure" jdbcType="REAL" property="bloodPressure" />
+    <result column="special_case" jdbcType="VARCHAR" property="specialCase" />
+    <result column="stool_frequency" jdbcType="TINYINT" property="stoolFrequency" />
+    <result column="stool_color" jdbcType="VARCHAR" property="stoolColor" />
+    <result column="stool_hardness" jdbcType="VARCHAR" property="stoolHardness" />
+    <result column="urination_frequency" jdbcType="TINYINT" property="urinationFrequency" />
+    <result column="urination_color" jdbcType="VARCHAR" property="urinationColor" />
+    <result column="heart_rate" jdbcType="REAL" property="heartRate" />
+    <result column="uric_acid" jdbcType="REAL" property="uricAcid" />
+    <result column="image_url" jdbcType="VARCHAR" property="imageUrl" />
+  </resultMap>
+</mapper>

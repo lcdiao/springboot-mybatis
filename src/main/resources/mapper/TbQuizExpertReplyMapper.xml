@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbQuizExpertReplyMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbQuizExpertReply">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="expert_reply_id" jdbcType="INTEGER" property="expertReplyId" />
+    <result column="account_info_id" jdbcType="BIGINT" property="accountInfoId" />
+    <result column="quiz_id" jdbcType="BIGINT" property="quizId" />
+    <result column="reply_content" jdbcType="VARCHAR" property="replyContent" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+</mapper>

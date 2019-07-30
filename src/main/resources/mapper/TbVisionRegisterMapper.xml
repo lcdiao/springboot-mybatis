@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbVisionRegisterMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbVisionRegister">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="vision_register_id" jdbcType="BIGINT" property="visionRegisterId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="birthday" jdbcType="DATE" property="birthday" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="register_time" jdbcType="TIMESTAMP" property="registerTime" />
+    <result column="eye_condition" jdbcType="VARCHAR" property="eyeCondition" />
+    <result column="myopia_years" jdbcType="TINYINT" property="myopiaYears" />
+    <result column="left_vision" jdbcType="INTEGER" property="leftVision" />
+    <result column="right_vision" jdbcType="INTEGER" property="rightVision" />
+    <result column="strong_light" jdbcType="VARCHAR" property="strongLight" />
+    <result column="dual_image" jdbcType="VARCHAR" property="dualImage" />
+    <result column="pointed_things" jdbcType="VARCHAR" property="pointedThings" />
+    <result column="flashing_sensation" jdbcType="VARCHAR" property="flashingSensation" />
+    <result column="contact_time" jdbcType="REAL" property="contactTime" />
+    <result column="tears_redness" jdbcType="VARCHAR" property="tearsRedness" />
+    <result column="treatment" jdbcType="VARCHAR" property="treatment" />
+    <result column="work_environment" jdbcType="VARCHAR" property="workEnvironment" />
+    <result column="road" jdbcType="VARCHAR" property="road" />
+    <result column="union_id" jdbcType="VARCHAR" property="unionId" />
+  </resultMap>
+</mapper>

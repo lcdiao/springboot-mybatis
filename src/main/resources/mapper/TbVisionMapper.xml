@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lcdiao.springbootmybatis.dao.TbVisionMapper">
+  <resultMap id="BaseResultMap" type="cn.lcdiao.springbootmybatis.entity.TbVision">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="vision_id" jdbcType="BIGINT" property="visionId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="before_left_vision" jdbcType="SMALLINT" property="beforeLeftVision" />
+    <result column="before_right_vision" jdbcType="SMALLINT" property="beforeRightVision" />
+    <result column="before_vision" jdbcType="SMALLINT" property="beforeVision" />
+    <result column="conditioning_time" jdbcType="TIMESTAMP" property="conditioningTime" />
+    <result column="after_left_vision" jdbcType="SMALLINT" property="afterLeftVision" />
+    <result column="after_right_vision" jdbcType="SMALLINT" property="afterRightVision" />
+    <result column="after_vision" jdbcType="SMALLINT" property="afterVision" />
+  </resultMap>
+</mapper>
